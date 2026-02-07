@@ -124,6 +124,10 @@ pneumonia-frontend/
  └── React app
 
 ```
+## Below is a sample output from the frontend:
+<img width="1841" height="870" alt="Screenshot (504)" src="https://github.com/user-attachments/assets/815b0e19-b526-4552-881f-645ff0315514" />
+
+
 
 ## Dataset
 
