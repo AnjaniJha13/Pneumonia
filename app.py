@@ -3,8 +3,10 @@ import numpy as np
 from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Get the directory where this script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
