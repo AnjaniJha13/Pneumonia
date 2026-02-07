@@ -112,12 +112,17 @@ curl -X POST -F "file=@xray_image.jpg" http://127.0.0.1:5000/predict
 ## Project Structure
 
 ```
-.
-├── app.py              # Flask API server
-├── train.py            # Model training script
-├── dataset/            # Training data (not included)
-├── pneumonia_model.h5  # Trained model (generated)
-└── README.md           # This file
+PNEUMONIA/
+ ├── dataset/
+ ├── train.py
+ ├── app.py
+ ├── pneumonia_model.h5
+ ├── requirements.txt
+ └── README.md
+
+pneumonia-frontend/
+ └── React app
+
 ```
 
 ## Dataset
